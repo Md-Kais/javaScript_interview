@@ -5,8 +5,10 @@
 // ""
 // null
 // NaN
+//undefined
 //false
 //and everythying is True
+/*
 let num=0;
 if(num){
     console.log(true);
@@ -49,3 +51,12 @@ if (name3) {
 else {
     console.log(false);//null means nothing
 }
+let name3 = undefined;
+if (name3) {
+    console.log(true);
+}
+else {
+    console.log(false);//undefined means nothing
+}
+*/
+//truthy vs falsy end.
