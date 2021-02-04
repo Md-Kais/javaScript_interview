@@ -25,3 +25,14 @@ const output = sum(3, 7);
 console.log(output);
 // https://www.thatjsdude.com/jsConcepts/concepts/scope.html
 //hoisting learn here
+var a = 1;                 //defines "a" in global scope
+function b() {
+    // var a = function () { }; //defines "a" in local scope 
+    a = 10;                 //overwrites local variable "a"
+    console.log(a);//output is 10 cause u assign it.
+    return;
+    function a() { }
+}
+b();
+
+console.log(a);                //output global variable "a"
