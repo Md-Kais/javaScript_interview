@@ -24,3 +24,4 @@ function sum(first, second) {
 const output = sum(3, 7);
 console.log(output);
 // https://www.thatjsdude.com/jsConcepts/concepts/scope.html
+//hoisting learn here
