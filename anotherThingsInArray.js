@@ -30,9 +30,9 @@ console.log(ages.findIndex(checkAdult));//2 cause 18 is in index number 2
 // see this https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
 
-let mofo=[1,2,3,4,45,5];
-mofo.forEach(Element=>console.log(Element));
-mofo.forEach(Element=>console.log(Element*Element));
+let mofo = [1, 2, 3, 4, 45, 5];
+mofo.forEach(Element => console.log(Element));
+mofo.forEach(Element => console.log(Element * Element));
 
 //from creates an array from a string: Array.from(object, mapFunction, thisValue)
 
@@ -41,15 +41,15 @@ console.log(myArr);
 
 //Convert an array to a string:
 var x = fruits.toString();//fruits is now a object not an array.
-console.log(typeof(x));//string
+console.log(typeof (x));//string
 console.log(typeof (fruits));//object
 console.log(x);
 //keys , entries is same as Map keys, entries
 //entries
-var fruits = ["Banana", "Orange", "Apple", "Mango","Apple"];
+var fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
 var f = fruits.entries();
 //then run a for...of loop to see the output
-for (e of f){
+for (e of f) {
     console.log(e);//it's an array object // Object [Array Iterator] 
 }
 console.log(f);//Object [Array Iterator] {}
@@ -59,5 +59,52 @@ var a = fruits.indexOf("Apple");
 console.log(a);//2 cause apple is in index 2
 
 //lastIndexOf gives us last Index of that elememnt. start:array.lastIndexOf(item, start)
+
 var ab = fruits.lastIndexOf("Apple");
 console.log(ab);//4 cause of last index
+// if (false) {
+
+//     console.log("I am not false")//it's not false af
+
+// }
+
+// else {
+
+//     console.log("I am false")//it executes
+
+// }
+//
+if ('false') {
+
+    console.log("I am not false")//it's not empty string. so it executes
+
+
+}
+
+else {
+
+    console.log("I am false")
+
+}
+if (isNaN('')) {
+
+    console.log("I am not false")
+
+}
+
+else {
+
+    console.log("I am false")//it executes. cause  empty string is NaN.
+
+}
+if (('')) {
+
+    console.log("I am not false")
+
+}
+
+else {
+
+    console.log("I am false")//it executes. cause undefined is not empty string.
+
+}
