@@ -1,0 +1,16 @@
+{
+    "editor.rulers": [
+        80,
+        120
+    
+    ],
+    "editor.smoothScrolling": true,
+    "workbench.colorCustomizations": {
+           "editorRuler.foreground": "#ff4081"
+    },
+    "workbench.colorTheme": "BeardedTheme Black & Diamond",
+    "workbench.preferredDarkColorTheme": "BeardedTheme Black & Diamond"
+    
+    
+    
+}

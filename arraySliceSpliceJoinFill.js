@@ -22,3 +22,4 @@ let answer=array.join('kaods');//makes a string.
 console.log(answer);
 console.log(array);
 //doesn't change the original element
+l
